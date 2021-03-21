@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!-- This document was created with Syntext Serna Free. -->
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="A4" page-height="297mm" page-width="210mm" margin-top="1cm" margin-bottom="1cm" margin-left="1cm" margin-right="1cm">
+      <fo:region-body margin="3cm"/>
+      <fo:region-before extent="2cm"/>
+      <fo:region-after extent="2cm"/>
+      <fo:region-start extent="2cm"/>
+      <fo:region-end extent="2cm"/>
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+  <fo:page-sequence master-reference="A4">
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block border-width="1mm" border-color="black" border-style="solid">
+        <fo:block font-size="14pt" font-family="verdana" color="red" space-before="5mm" space-after="5mm"> W3CSchool </fo:block>
+        <fo:block font-size="12pt" font-family="verdana" text-indent="5mm"> At W3CSchool you will find all the Web-building tutorials you need, from basic HTML and XHTML to advanced XML, XSL, Multimedia and WAP. </fo:block>
+      </fo:block>
+      <fo:list-block>
+        <fo:list-item>
+          <fo:list-item-label>
+            <fo:block>* </fo:block>
+          </fo:list-item-label>
+          <fo:list-item-body>
+            <fo:block>Volvo</fo:block>
+          </fo:list-item-body>
+        </fo:list-item>
+        <fo:list-item>
+          <fo:list-item-label>
+            <fo:block>1</fo:block>
+          </fo:list-item-label>
+          <fo:list-item-body>
+            <fo:block margin-left="5px">Saab</fo:block>
+          </fo:list-item-body>
+        </fo:list-item>
+      </fo:list-block>
+      <fo:table>
+        <fo:table-column column-width="25mm"/>
+        <fo:table-column column-width="25mm"/>
+        <fo:table-header>
+          <fo:table-row border-width="1px" border-color="black" border-style="solid">
+            <fo:table-cell border-width="1px" border-color="black" border-style="solid">
+              <fo:block font-weight="bold">Car</fo:block>
+            </fo:table-cell>
+            <fo:table-cell>
+              <fo:block font-weight="bold">Price</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+        </fo:table-header>
+        <fo:table-body border-width="1px" border-color="black" border-style="solid">
+          <fo:table-row border-width="1px" border-color="black" border-style="solid">
+            <fo:table-cell>
+              <fo:block>Volvo</fo:block>
+            </fo:table-cell>
+            <fo:table-cell>
+              <fo:block>$50000</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell>
+              <fo:block>SAAB</fo:block>
+            </fo:table-cell>
+            <fo:table-cell>
+              <fo:block>$48000</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+        </fo:table-body>
+      </fo:table>
+      <fo:block>some text</fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>
