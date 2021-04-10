@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+    <section>
+        <head>My very first xsl-fo document</head>
+        <para>has an <em>important</em> paragraph inside it</para>
+    </section>
+    <section>
+        <head>The second section, starting on a new page </head>
+        <para>Some content in the second section</para>
+    </section>
+</document>
